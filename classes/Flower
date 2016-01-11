@@ -1,0 +1,18 @@
+public class Flower {
+    private String color; // цвет цветка
+    private String name; // названиеч
+    private int height; // высота цветка
+
+    // Цветок расцветает
+    public void bloom(){
+        System.out.print("Blooming...\n");
+        }
+    // Цветок цветет
+    public void blossom(){
+        System.out.print("Blossoming...\n");
+        }
+    // Цветок вянет
+    public void fade(){
+        System.out.print("Fading...\n");
+    }
+    }
